@@ -5,8 +5,8 @@
   "scripts": {
     "build": "parcel build src/index.html src/img/*",
     "build:dev": "parcel src/index.html src/img/*",
-    "prebuild": "rimraf dist",
-    "prebuild:dev": "rimraf dist",
+    "prebuild": "rimraf dist/",
+    "prebuild:dev": "rimraf dist/",
     "prepare": "husky install"
   },
   "keywords": [],
