@@ -1,3 +1,4 @@
+import CardListComponent from "./components/CardListComponent/CardListComponent";
 import Component from "./components/Component/Component";
 import HeaderComponent from "./components/HeaderComponent/HeaderComponent";
 import MainContentComponent from "./components/MainContentComponent/MainContentComponent";
@@ -18,3 +19,10 @@ const mainContent = new MainContentComponent(
   "main-content"
 );
 mainContent.render();
+
+const sectionComponent = new CardListComponent(
+  mainContent.element,
+  "list",
+  "section"
+);
+sectionComponent.render();
